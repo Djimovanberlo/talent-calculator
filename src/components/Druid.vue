@@ -7,7 +7,6 @@
         <div class="balance">
             <div style="background-repeat: no-repeat; float: left; background-size: 240px 360px">
             <div style="overflow: hidden; width: 204px">
-                
                 <table>
                     <tbody>
                         <tr>
@@ -140,9 +139,10 @@
                 </table>
             </div>
             </div>
-            </div>
-        <div class="feral">             <div style="background-repeat: no-repeat; float: left; background-size: 240px 360px">
-           <div style="overflow: hitdden; width: 204px">
+        </div>
+        <div class="feral">             
+            <div style="background-repeat: no-repeat; float: left; background-size: 240px 360px">
+                <div style="overflow: hitdden; width: 204px">
                 <table>
                     <tbody>
                         <tr>
@@ -273,8 +273,11 @@
                         </tr>
                     </tbody>
                 </table>
-            </div></div></div>
-        <div class="restoration">                  <div style="background-repeat: no-repeat; float: left; background-size: 240px 360px">
+            </div>
+            </div>
+        </div>
+        <div class="restoration">                  
+            <div style="background-repeat: no-repeat; float: left; background-size: 240px 360px">
       <div style="overflow: hitdden; width: 204px">
                 <table>
                     <tbody>
@@ -406,7 +409,9 @@
                         </tr>
                     </tbody>
                 </table>
-            </div></div></div>
+            </div>
+            </div>
+        </div>
     </div>
   </div>
 </template>
