@@ -1,16 +1,24 @@
 <template>
   <div id="app">
-    <HelloWorld msg="World of Warcraft Classic+ Talent Calculator"/>
+    <MainContents msg="World of Warcraft Classic+ Talent Calculator"/>
+    <ClassesNav msg="ClassesNavigator" />
+    <Druid msg="Druid" />
+    <!-- Druid will be dynamic for each class(?) with props accordingly. Table and images will be part of component contents-->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainContents from './components/MainContents.vue'
+import ClassesNav from './components/ClassesNav.vue'
+import Druid from './components/Druid.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MainContents,
+    ClassesNav,
+    Druid
+    // Druid will be state managed per class, via ClassesNav
   }
 }
 </script>
